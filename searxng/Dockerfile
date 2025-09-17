@@ -9,3 +9,5 @@ RUN mkdir -p /var/cache/searxng && \
 
 # 환경 변수 기본값 설정 (필요시)
 ENV SEARXNG_BASE_URL=https://localhost/
+
+EXPOSE 8080
